@@ -89,6 +89,7 @@ partial class Form1
             this.filePw.Location = new System.Drawing.Point(13, 375);
             this.filePw.Multiline = true;
             this.filePw.Name = "filePw";
+            this.filePw.PasswordChar = '*';
             this.filePw.Size = new System.Drawing.Size(220, 50);
             this.filePw.TabIndex = 1;
             // 
