@@ -202,7 +202,7 @@ partial class Form1
             // 
             this.grpQueryType.Controls.Add(this.rdoNumberRange);
             this.grpQueryType.Controls.Add(this.rdoKeyWord);
-            this.grpQueryType.Location = new System.Drawing.Point(13, 70);
+            this.grpQueryType.Location = new System.Drawing.Point(13, 80);
             this.grpQueryType.Name = "grpQueryType";
             this.grpQueryType.Size = new System.Drawing.Size(200, 40);
             this.grpQueryType.TabIndex = 1006;
