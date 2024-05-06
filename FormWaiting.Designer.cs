@@ -37,9 +37,6 @@
             this.lblWating.Name = "lblWating";
             this.lblWating.Size = new System.Drawing.Size(67, 15);
             this.lblWating.Text = "Waiting";
-            this.lblWating.Location = new System.Drawing.Point((this.ClientSize.Width - lblWating.Size.Width) / 2,
-                                                       (this.ClientSize.Height - lblWating.Size.Height) / 2);
-
             this.FormBorderStyle = FormBorderStyle.None;
             this.MaximizeBox = false;
             this.StartPosition = FormStartPosition.CenterScreen;

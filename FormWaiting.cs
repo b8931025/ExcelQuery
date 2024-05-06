@@ -15,6 +15,8 @@ namespace ExcelQuery
         public FormWaiting()
         {
             InitializeComponent();
+            this.lblWating.Location = new System.Drawing.Point((this.ClientSize.Width - lblWating.Size.Width) / 2,
+                                           (this.ClientSize.Height - lblWating.Size.Height) / 2);
         }
     }
 }
