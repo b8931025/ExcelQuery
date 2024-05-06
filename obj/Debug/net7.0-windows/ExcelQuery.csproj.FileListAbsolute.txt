@@ -29,3 +29,4 @@ D:\tmp\ExcelQuery\bin\Debug\net7.0-windows\SixLabors.Fonts.dll
 D:\tmp\ExcelQuery\bin\Debug\net7.0-windows\SixLabors.ImageSharp.dll
 D:\tmp\ExcelQuery\obj\Debug\net7.0-windows\ExcelQuery.csproj.CopyComplete
 D:\tmp\ExcelQuery\obj\Debug\net7.0-windows\ExcelQuery.Properties.Resources.resources
+D:\tmp\ExcelQuery\obj\Debug\net7.0-windows\ExcelQuery.FormWaiting.resources

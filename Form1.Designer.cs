@@ -72,7 +72,7 @@ partial class Form1
             this.queryKeyWord.Location = new System.Drawing.Point(12, 130);
             this.queryKeyWord.Name = "queryKeyWord";
             this.queryKeyWord.Size = new System.Drawing.Size(220, 23);
-            this.queryKeyWord.TabIndex = 1;
+            this.queryKeyWord.TabIndex = 3;
             // 
             // label2
             // 
@@ -91,7 +91,7 @@ partial class Form1
             this.filePw.Name = "filePw";
             this.filePw.PasswordChar = '*';
             this.filePw.Size = new System.Drawing.Size(220, 50);
-            this.filePw.TabIndex = 1;
+            this.filePw.TabIndex = 8;
             // 
             // lblPath
             // 
@@ -108,7 +108,7 @@ partial class Form1
             this.btnQuery.Location = new System.Drawing.Point(81, 230);
             this.btnQuery.Name = "btnQuery";
             this.btnQuery.Size = new System.Drawing.Size(64, 34);
-            this.btnQuery.TabIndex = 5;
+            this.btnQuery.TabIndex = 7;
             this.btnQuery.Text = "查詢";
             this.btnQuery.UseVisualStyleBackColor = true;
             this.btnQuery.Click += new System.EventHandler(this.btnQuery_Click);
@@ -133,7 +133,7 @@ partial class Form1
             -2147483648});
             this.numBgn.Name = "numBgn";
             this.numBgn.Size = new System.Drawing.Size(85, 23);
-            this.numBgn.TabIndex = 1000;
+            this.numBgn.TabIndex = 4;
             this.numBgn.Visible = false;
             // 
             // numEnd
@@ -156,7 +156,7 @@ partial class Form1
             -2147483648});
             this.numEnd.Name = "numEnd";
             this.numEnd.Size = new System.Drawing.Size(85, 23);
-            this.numEnd.TabIndex = 1001;
+            this.numEnd.TabIndex = 5;
             this.numEnd.Value = new decimal(new int[] {
             2000,
             0,
@@ -181,7 +181,7 @@ partial class Form1
             this.rdoKeyWord.Location = new System.Drawing.Point(0, 15);
             this.rdoKeyWord.Name = "rdoKeyWord";
             this.rdoKeyWord.Size = new System.Drawing.Size(61, 19);
-            this.rdoKeyWord.TabIndex = 1004;
+            this.rdoKeyWord.TabIndex = 1;
             this.rdoKeyWord.TabStop = true;
             this.rdoKeyWord.Text = "關鍵字";
             this.rdoKeyWord.UseVisualStyleBackColor = true;
@@ -193,7 +193,7 @@ partial class Form1
             this.rdoNumberRange.Location = new System.Drawing.Point(94, 15);
             this.rdoNumberRange.Name = "rdoNumberRange";
             this.rdoNumberRange.Size = new System.Drawing.Size(73, 19);
-            this.rdoNumberRange.TabIndex = 1005;
+            this.rdoNumberRange.TabIndex = 2;
             this.rdoNumberRange.Text = "數字範圍";
             this.rdoNumberRange.UseVisualStyleBackColor = true;
             this.rdoNumberRange.Click += new System.EventHandler(this.rdoNumberRange_Click);
@@ -215,7 +215,7 @@ partial class Form1
             this.chkNumberInWord.Location = new System.Drawing.Point(12, 200);
             this.chkNumberInWord.Name = "chkNumberInWord";
             this.chkNumberInWord.Size = new System.Drawing.Size(98, 19);
-            this.chkNumberInWord.TabIndex = 1007;
+            this.chkNumberInWord.TabIndex = 6;
             this.chkNumberInWord.Text = "混合數字查詢";
             this.chkNumberInWord.UseVisualStyleBackColor = true;
             this.chkNumberInWord.Visible = false;
