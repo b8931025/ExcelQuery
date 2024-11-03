@@ -331,7 +331,7 @@ public partial class Form1 : Form
     public bool MatchKeyWord(string txt)
     {
         if (string.IsNullOrEmpty(txt)) return false;
-        return txt.IndexOf(QueryString()) > -1;
+        return txt.IndexOf(QueryString(), StringComparison.OrdinalIgnoreCase) > -1;
     }
 
     public bool MatchNumberRange(string txt)
